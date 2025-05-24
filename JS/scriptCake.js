@@ -27,7 +27,7 @@ afficheBurg.addEventListener("click",()=>{
 
     // Créer le message à envoyer
     const text = `Bonjour, je m'appelle ${name} ${surname}. Mon email est ${email} et mon numero est le ${telephone}. Mon message est le suivant: ${message}`;
-    const phoneNumber = "+237699740930"; // Remplace par le numéro WhatsApp (sans le +)
+    const phoneNumber = "+237686019392"; // Remplace par le numéro WhatsApp (sans le +)
 
     // Créer l'URL WhatsApp
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
