@@ -336,7 +336,7 @@ function showCategory(cat) {
       <div class="stars">${generateStars(item.note)}</div>
       <div class="name">${item.nom}</div>
       <div class="price">${item.prix}</div>
-      <div class="btn-orange"><a class="icon" href="https://wa.me/+237699740930?text=Bonjour, j'aime bien vos elements "><i class="fa-brands fa-whatsapp"></i> Commandez</div>
+      <div class="btn-orange"><a class="icon" href="https://wa.me/+237686019392?text=Bonjour, j'aime bien vos elements "><i class="fa-brands fa-whatsapp"></i> Commandez</div>
     `;
     content.appendChild(drink);
   });
