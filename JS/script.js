@@ -2,146 +2,146 @@ const tous= [
   {
     nom: "Genoise",
     img: "../images/IMG_2830.JPG",
-    prix: "7000 F",
+    prix: "7000 Frs",
     note: 4
   },
   {
     nom: "Cake",
     img: "../images/cake5.jpg",
-    prix: "700 F",
+    prix: "3500 Frs",
     note: 5
   },
   {
     nom: "marriage",
     img: "../images/etage2.jpg",
-    prix: "500 F",
+    prix: "150000 Frs",
     note: 4
   },
   {
     nom: "CupCake",
     img: "../images/cupcake1.jpg",
-    prix: "500 F",
+    prix: "500 Frs l'unité",
     note: 4
   },
   {
     nom: "Cake",
     img: "../images/IMG_2999.JPG",
-    prix: "500 F",
+    prix: "2500 Frs",
     note: 4
   },
   {
     nom: "Genoise",
     img: "../images/IMG_2827.JPG",
-    prix: "500 F",
+    prix: "9000 Frs",
     note: 4
   },
   {
     nom: "Marriage",
     img: "../images/etage1.jpg",
-    prix: "500 F",
+    prix: "200000 Frs",
     note: 4
   },
   {
     nom: "CupCake",
     img: "../images/cupcake2.jpg",
-    prix: "500 F",
+    prix: "1000 Frs l'unité",
     note: 4
   },
   {
     nom: "Marriage",
     img: "../images/etage3.jpg",
-    prix: "500 F",
+    prix: "230000 Frs",
     note: 4
   },
   {
     nom: "Genoise",
     img: "../images/img_4.jpg",
-    prix: "500 F",
+    prix: "4000 Frs",
     note: 4
   },
   {
     nom: "Cake",
     img: "../images/IMG_3001.JPG",
-    prix: "500 F",
+    prix: "3500 Frs",
     note: 4
   },
   {
     nom: "Cupcake",
     img: "../images/cupcake3.jpg",
-    prix: "500 F",
+    prix: "500 Frs",
     note: 4
   },
   {
     nom: "Marriage",
     img: "../images/etage4.jpg",
-    prix: "500 F",
+    prix: "270000 Frs",
     note: 4
   },
   {
     nom: "CupCake",
     img: "../images/cupcake4.jpg",
-    prix: "500 F",
+    prix: "500 Frs",
     note: 4
   },
   {
     nom: "cake",
     img: "../images/cake1.jpg",
-    prix: "500 F",
+    prix: "3000 Frs",
     note: 4
   },
   {
     nom: "Genoise",
     img: "../images/img_2.jpg",
-    prix: "500 F",
+    prix: "10000 Frs",
     note: 4
   },
   {
     nom: "CupCake",
     img: "../images/cupcake5.jpg",
-    prix: "500 F",
+    prix: "500 Frs",
     note: 4
   },
   {
     nom: "Cake",
     img: "../images/cake3.jpg",
-    prix: "500 F",
+    prix: "3000 Frs",
     note: 4
   },
   {
     nom: "Genoise",
     img: "../images/img_1.jpg",
-    prix: "500 F",
+    prix: "8000 Frs",
     note: 4
   },
   {
     nom: "Marriage",
     img: "../images/etage8.jpg",
-    prix: "500 F",
+    prix: "150000 Frs",
     note: 4
   },
   {
     nom: "CupCake",
     img: "../images/cupcake6.jpg",
-    prix: "500 F",
+    prix: "500 Frs",
     note: 4
   },
   {
     nom: "Genoise",
     img: "../images/img_3.jpg",
-    prix: "500 F",
-    note: 4
+    prix: "12000 Frs",
+    note: 5
   },
   {
     nom: "Cake",
     img: "../images/cake4.jpg",
-    prix: "500 F",
+    prix: "3000 Frs",
     note: 4
   },
   {
     nom: "Marriage",
     img: "../images/etage7.jpg",
-    prix: "500 F",
-    note: 4
+    prix: "190000 Frs",
+    note: 5
   }
 ];
 
@@ -150,37 +150,37 @@ const autresCategories = {
  {
     nom: "CupCake",
     img: "../images/cupcake1.jpg",
-    prix: "500 F",
+     prix: "500 Frs l'unité",
     note: 4
   },
  {
      nom: "CupCake",
     img: "../images/cupcake2.jpg",
-    prix: "500 F",
+   prix: "1000 Frs l'unité",
     note: 4
   },
   {
     nom: "Cupcake",
     img: "../images/cupcake3.jpg",
-    prix: "500 F",
+    prix: "500 Frs",
     note: 4
   },
   {
     nom: "CupCake",
     img: "../images/cupcake4.jpg",
-    prix: "500 F",
+    prix: "500 Frs",
     note: 4
   },
   {
     nom: "CupCake",
     img: "../images/cupcake5.jpg",
-    prix: "500 F",
+    prix: "500 Frs",
     note: 4
   },
    {
     nom: "CupCake",
     img: "../images/cupcake6.jpg",
-    prix: "500 F",
+    prix: "500 Frs",
     note: 4
   },
   ],
@@ -189,37 +189,37 @@ const autresCategories = {
     {
     nom: "Cake",
     img: "../images/cake4.jpg",
-    prix: "500 F",
+    prix: "3000 Frs",
     note: 4
   },
   {
     nom: "Cake",
     img: "../images/cake3.jpg",
-    prix: "500 F",
+    prix: "3000 Frs",
     note: 4
   },
      {
     nom: "cake",
     img: "../images/cake1.jpg",
-    prix: "500 F",
+    prix: "3000 Frs",
     note: 4
   },
      {
     nom: "Cake",
     img: "../images/IMG_3001.JPG",
-    prix: "500 F",
+    prix: "3500 Frs",
     note: 4
   },
     {
     nom: "Cake",
     img: "../images/IMG_2999.JPG",
-    prix: "500 F",
+     prix: "2500 Frs",
     note: 4
   },
     {
     nom: "Cake",
     img: "../images/cake5.jpg",
-    prix: "700 F",
+    prix: "3500 Frs",
     note: 5
   }
   ],
@@ -228,37 +228,37 @@ const autresCategories = {
       {
     nom: "Marriage",
     img: "../images/etage7.jpg",
-    prix: "500 F",
-    note: 4
+    prix: "190000 Frs",
+    note: 5
   },
     {
     nom: "Marriage",
     img: "../images/etage8.jpg",
-    prix: "500 F",
+    prix: "150000 Frs",
     note: 4
   },
     {
     nom: "Marriage",
     img: "../images/etage4.jpg",
-    prix: "500 F",
+    prix: "270000 Frs",
     note: 4
   },
     {
     nom: "Marriage",
     img: "../images/etage3.jpg",
-    prix: "500 F",
+    prix: "230000 Frs",
     note: 4
   },
   {
     nom: "Marriage",
     img: "../images/etage1.jpg",
-    prix: "500 F",
+    prix: "200000 Frs",
     note: 4
   },
     {
     nom: "marriage",
     img: "../images/etage2.jpg",
-    prix: "500 F",
+    prix: "150000 Frs",
     note: 4
   }
   ],
@@ -267,38 +267,38 @@ const autresCategories = {
   {
     nom: "Genoise",
     img: "../images/IMG_2830.JPG",
-    prix: "7000 F",
+    prix: "7000 Frs",
     note: 4
   },
     {
     nom: "Genoise",
     img: "../images/IMG_2827.JPG",
-    prix: "500 F",
+    prix: "9000 Frs",
     note: 4
   },
     {
     nom: "Genoise",
     img: "../images/img_4.jpg",
-    prix: "500 F",
+    prix: "4000 Frs",
     note: 4
   },
     {
     nom: "Genoise",
     img: "../images/img_2.jpg",
-    prix: "500 F",
+    prix: "10000 Frs",
     note: 4
   },
     {
     nom: "Genoise",
     img: "../images/img_1.jpg",
-    prix: "500 F",
+    prix: "8000 Frs",
     note: 4
   },
     {
     nom: "Genoise",
     img: "../images/img_3.jpg",
-    prix: "500 F",
-    note: 4
+    prix: "12000 Frs",
+    note: 5
   }
   ]
 };
