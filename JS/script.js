@@ -341,5 +341,4 @@ function showCategory(cat) {
     content.appendChild(drink);
   });
 }
-
-showCategory('Tous');
+ showCategory('Tous');
