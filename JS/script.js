@@ -1,4 +1,4 @@
-const boissons = [
+const tous= [
   {
     nom: "Genoise",
     img: "../images/IMG_2830.JPG",
@@ -320,7 +320,7 @@ function showCategory(cat) {
   content.innerHTML = "";
 
   let items = [];
-  if (cat === "Tous") items = boissons;
+  if (cat === "Tous") items = tous;
   else items = autresCategories[cat];
 
   if (items.length === 0) {
