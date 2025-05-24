@@ -267,7 +267,7 @@ const autresCategories = {
   {
     nom: "Genoise",
     img: "../images/IMG_2830.JPG",
-    prix: "500 F",
+    prix: "7000 F",
     note: 4
   },
     {
