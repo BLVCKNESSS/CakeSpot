@@ -1,0 +1,798 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --yan: #000;/* couleur noir */
+  --tala:white;/* couleur blanche */
+  --collins:#a5661b;/* couleur marron*/
+  --tayouo:#2b211c;/* couleur noir bizarre*/
+  --tayc:#fff;/* couleur blanche bizarre*/
+  --nat:#ffd700;
+  --san:#555;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--tayc);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--yan);
+  width: 100vw;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  color: var(--tala);
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.contact-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  color: var(--tala);
+  cursor: pointer;
+  position: absolute;
+  top:18px;
+  right: 20px;
+}
+
+
+#burgeur{
+  visibility: hidden;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: calc(100vh - 80px);
+  background: linear-gradient(to right, #a5661b 50%, #2b211c 50%);
+}
+/* navvvv*/
+
+.left, .right {
+  flex: 1;
+  padding: 3rem;
+}
+
+.left h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--nat);
+}
+
+.description {
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+
+.news {
+  font-size: 0.8rem;
+  color: var(--nat);
+  margin-bottom: 1rem;
+}
+
+.explore {
+    background: #ffa927;
+    border: none;
+    padding: 15px 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+
+.learn-more {
+  color: var(--tala);
+  text-decoration: underline;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 95px;
+}
+button a{
+  text-decoration: none;
+  color: #fff;
+}
+button u{
+  text-decoration: none;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.cake-img {
+  max-width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+.all1 {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--tayc);
+  color: var(--yan);
+}
+
+.delices {
+  padding: 48px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.header h2 {
+  font-size: 42px;
+}
+
+.voir-tout {
+  text-decoration: none;
+  color: var(--san);
+  font-weight: 500;
+  
+}
+.voir-tout:hover{
+  color: var(--nat);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: var(--tala);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  margin: 8px 0;
+  font-size: 17.6px;
+}
+
+.card p {
+  font-size: 14.4px;
+  color: var(--san);
+}
+
+
+
+.mission-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.image-box {
+  flex: 1;
+  max-width: 500px;
+  position: relative;
+}
+
+.image-box img {
+  width: 65%;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.quote {
+  position: absolute;
+  bottom: 350px;
+  left: 5px;
+  color: var(--tala);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  max-width: 55%;
+}
+
+.quote .author {
+  font-size: 12.8px;
+  display: block;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+.text-box {
+  flex: 1;
+  max-width: 600px;
+}
+
+.highlight {
+  color: var(--nat);
+  font-size: 14.4px;
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 16px;
+  color: var(--collins);
+}
+
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 32px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.stats div {
+  text-align: center;
+}
+.all {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--tayc);
+  color: var(--yan);
+}
+
+.btn-send {
+  background: #ffa927;
+  border: none;
+  padding: 15px 35px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+.all3 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 15%;
+}
+
+.footer {
+  background-color: var(--yan);
+  padding: 20px;
+  font-size: 14px;
+  width: 100vw;
+  color: var(--tayc);
+  text-align: center;
+  position: relative;
+}
+
+.footer-content p {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: var(--tayc);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: var(--nat);
+}
+i:hover{
+  color: var(--nat);
+}
+.scrol{
+  position: absolute;
+  display: flex;
+  padding-bottom: 5px;
+  top: 76.5%;
+  left: 49.6%;
+  color: var(--nat);
+  background-color:var(--collins) ;
+  font-size: 45px;
+  border-radius: 15px;
+  animation-name: scrolleur;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: normal;
+}
+@keyframes scrolleur {
+  0%{
+    transform: translateY(50px);
+  }
+    100%{
+    transform: translateY(70px);
+  }
+}
+       .liens{
+      display: flex;
+      gap: 35px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media screen and (max-width :889px){
+      .visible{
+      visibility: visible;
+    }
+    .masque{
+      visibility: hidden;
+    }
+  
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      font-size: small;
+    }
+    
+    .logo {
+      font-size: 18px;
+    }
+    
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    nav a {
+      font-size: small;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 15px;
+    }
+    
+    .contact-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 15px;
+      position: initial;
+    }
+        #burgeur{
+      visibility: visible;
+      cursor: pointer;
+    }
+    .display
+    {
+      display: flex!important;
+      flex-direction: column!important;
+    }
+    .burg{
+      position: absolute;
+      width: 100%;
+      height: 210px;
+      top: 34.5px;
+      right: 0;
+      background-color: var(--yan);
+      display: none;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .mission-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+    main {
+      display: flex;
+      height: calc(150vh );
+      background: var(--collins);
+      flex-wrap: wrap;
+    } 
+          .liens{
+      display: flex;
+      gap: 35px;
+      align-items: center;
+      justify-content: center;
+    }
+   }
+
+@media (min-width: 485px) and (max-width: 800px) {
+     .visible{
+      visibility: visible;
+    }
+    .masque{
+      visibility: hidden;
+    }
+    header {
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0.5rem 1rem;
+    }
+
+    .logo {
+      font-size: 1.2rem;
+    }
+ 
+    nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    nav a {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .contact-btn {
+      position: static;
+      margin-top: 10px;
+    }
+
+    main {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+
+     #burgeur{
+      visibility: visible;
+      cursor: pointer;
+    }
+    .display
+    {
+      display: flex!important;
+      flex-direction: column!important;
+    }
+    .burg{
+      position: absolute;
+      width: 100%;
+      height: 210px;
+      top: 34.5px;
+      right: 0;
+      background-color: var(--yan);
+      display: none;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .mission-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+  .left, .right {
+    padding: 1.5rem;
+    max-width: 100%;
+  }
+
+  .left h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  .buttons {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .explore {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+
+  .right {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cake-img {
+    max-width: 220px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .delices {
+    padding: 20px 10px;
+  }
+
+  .header h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .mission-section {
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1rem;
+  }
+
+  .image-box img {
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+  }
+
+  .quote {
+    position: static;
+    margin: 10px 0;
+    font-size: 14px;
+    max-width: 100%;
+    background: rgba(0,0,0,0.5);
+  }
+
+  .text-box {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .stats {
+    flex-direction: row;
+    gap: 10px;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .footer-links {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .scrol {
+    left: 47%;
+    font-size: 32px;
+    top: 92%;
+  }
+      .liens{
+      display: flex;
+      gap: 35px;
+      align-items: center;
+      justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0.5rem 1rem;
+    }
+
+    .logo {
+      font-size: 1.2rem;
+    }
+ 
+    nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    nav a {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .contact-btn {
+      position: static;
+      margin-top: 10px;
+    }
+
+    main {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+
+        #burgeur{
+      visibility: visible;
+      cursor: pointer;
+    }
+    .display
+    {
+      display: flex!important;
+      flex-direction: column!important;
+    }
+    .burg{
+      position: absolute;
+      width: 100%;
+      height: 210px;
+      top: 34.5px;
+      right: 0;
+      background-color: var(--yan);
+      display: none;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .mission-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .left, .right {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .left h1 {
+    font-size: 28px;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .explore {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+
+  .right {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cake-img {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .delices {
+    padding: 20px 5px;
+  }
+
+  .header h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .mission-section {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .image-box img {
+    width: 100%;
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .quote {
+    position: static;
+    margin: 10px 0;
+    font-size: 13px;
+    max-width: 100%;
+    background: rgba(0,0,0,0.5);
+  }
+
+  .text-box {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .stats {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .text-box button{
+    display: flex;
+    margin: auto;
+  }
+  
+  .footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .scrol {
+    left: 45%;
+    font-size: 30px;
+    top: 90%;
+  }
+        .liens{
+      display: flex;
+      gap: 35px;
+      align-items: center;
+      justify-content: center;
+    }
+}
