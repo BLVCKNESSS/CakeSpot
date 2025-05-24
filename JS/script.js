@@ -149,13 +149,13 @@ const autresCategories = {
   Cupcakes: [
  {
     nom: "CupCake",
-    img: "../images/cupcake1.JPG",
+    img: "../images/cupcake1.jpg",
     prix: "500 F",
     note: 4
   },
  {
-    nom: "CupCake",
-    img: "../images/cupcake2.JPG",
+     nom: "CupCake",
+    img: "../images/cupcake2.jpg",
     prix: "500 F",
     note: 4
   },
@@ -167,19 +167,19 @@ const autresCategories = {
   },
   {
     nom: "CupCake",
-    img: "../images/cupcake4.JPG",
+    img: "../images/cupcake4.jpg",
     prix: "500 F",
     note: 4
   },
   {
     nom: "CupCake",
-    img: "../images/cupcake5.JPG",
+    img: "../images/cupcake5.jpg",
     prix: "500 F",
     note: 4
   },
    {
     nom: "CupCake",
-    img: "../images/cupcake6.JPG",
+    img: "../images/cupcake6.jpg",
     prix: "500 F",
     note: 4
   },
@@ -188,19 +188,19 @@ const autresCategories = {
   Cakes: [
     {
     nom: "Cake",
-    img: "../images/cake4.JPG",
+    img: "../images/cake4.jpg",
     prix: "500 F",
     note: 4
   },
   {
     nom: "Cake",
-    img: "../images/cake3.JPG",
+    img: "../images/cake3.jpg",
     prix: "500 F",
     note: 4
   },
      {
     nom: "cake",
-    img: "../images/cake1.JPG",
+    img: "../images/cake1.jpg",
     prix: "500 F",
     note: 4
   },
@@ -227,37 +227,37 @@ const autresCategories = {
   Gateaux_de_marriage: [
       {
     nom: "Marriage",
-    img: "../images/etage7.JPG",
+    img: "../images/etage7.jpg",
     prix: "500 F",
     note: 4
   },
     {
     nom: "Marriage",
-    img: "../images/etage8.JPG",
+    img: "../images/etage8.jpg",
     prix: "500 F",
     note: 4
   },
     {
     nom: "Marriage",
-    img: "../images/etage4.JPG",
+    img: "../images/etage4.jpg",
     prix: "500 F",
     note: 4
   },
     {
     nom: "Marriage",
-    img: "../images/etage3.JPG",
+    img: "../images/etage3.jpg",
     prix: "500 F",
     note: 4
   },
   {
     nom: "Marriage",
-    img: "../images/etage1.JPG",
+    img: "../images/etage1.jpg",
     prix: "500 F",
     note: 4
   },
     {
     nom: "marriage",
-    img: "../images/etage2.JPG",
+    img: "../images/etage2.jpg",
     prix: "500 F",
     note: 4
   }
@@ -278,25 +278,25 @@ const autresCategories = {
   },
     {
     nom: "Genoise",
-    img: "../images/img_4.JPG",
+    img: "../images/img_4.jpg",
     prix: "500 F",
     note: 4
   },
     {
     nom: "Genoise",
-    img: "../images/img_2.JPG",
+    img: "../images/img_2.jpg",
     prix: "500 F",
     note: 4
   },
     {
     nom: "Genoise",
-    img: "../images/img_1.JPG",
+    img: "../images/img_1.jpg",
     prix: "500 F",
     note: 4
   },
     {
     nom: "Genoise",
-    img: "../images/img_3.JPG",
+    img: "../images/img_3.jpg",
     prix: "500 F",
     note: 4
   }
