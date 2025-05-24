@@ -218,7 +218,7 @@ const autresCategories = {
   },
     {
     nom: "Cake",
-    img: "../images/cake5.JPG",
+    img: "../images/cake5.jpg",
     prix: "700 F",
     note: 5
   }
